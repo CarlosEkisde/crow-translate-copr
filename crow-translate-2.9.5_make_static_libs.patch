@@ -1,0 +1,24 @@
+diff -ur a/src/third-party/qhotkey/CMakeLists.txt b/src/third-party/qhotkey/CMakeLists.txt
+--- a/src/third-party/qhotkey/CMakeLists.txt	2020-10-23 07:30:14.822654000 +0300
++++ b/src/third-party/qhotkey/CMakeLists.txt	2020-10-23 07:36:53.030002678 +0300
+@@ -37,7 +37,7 @@
+     set(SRC_FILES ${SRC_FILES} QHotkey/qhotkey_x11.cpp)
+ endif()
+ 
+-add_library(qhotkey ${SRC_FILES} ${MOC_HEADERS})
++add_library(qhotkey STATIC ${SRC_FILES} ${MOC_HEADERS})
+ add_library(QHotkey::QHotkey ALIAS qhotkey)
+ target_link_libraries(qhotkey ${LIBS})
+ 
+diff -ur a/src/third-party/qtaskbarcontrol/CMakeLists.txt b/src/third-party/qtaskbarcontrol/CMakeLists.txt
+--- a/src/third-party/qtaskbarcontrol/CMakeLists.txt	2020-10-23 07:30:09.512026000 +0300
++++ b/src/third-party/qtaskbarcontrol/CMakeLists.txt	2020-10-23 07:37:16.138325640 +0300
+@@ -4,7 +4,7 @@
+ 
+ set(CMAKE_AUTOMOC ON)
+ 
+-add_library(${PROJECT_NAME}
++add_library(${PROJECT_NAME} STATIC
+     qtaskbarcontrol.cpp
+     qtaskbarcontrol_p.cpp
+ )
