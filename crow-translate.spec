@@ -4,7 +4,7 @@ Release:    1%{?dist}
 Summary:    A simple and lightweight translator
 License:    GPL-3.0-only
 URL:        https://crow-translate.github.io/
-Source:     https://github.com/crow-translate/crow-translate/releases/download/%{version}/crow-translate-%{version}-source.tar.gz
+Source:     https://github.com/crow-translate/crow-translate/releases/download/2.9.7/crow-translate-%{version}-source.tar.gz
 
 Patch0:     https://raw.githubusercontent.com/CarlosEkisde/crow-translate-copr/main/crow-translate-make_static_libs.patch
 
