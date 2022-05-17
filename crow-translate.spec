@@ -18,6 +18,7 @@ BuildRequires: qt5-linguist
 BuildRequires: qt5-qtbase-devel
 BuildRequires: qt5-qtmultimedia-devel
 BuildRequires: qt5-qtx11extras-devel
+BuildRequires: kf5-kwayland-devel
 BuildRequires: tesseract-devel
 
 Recommends: gstreamer-plugins-good
