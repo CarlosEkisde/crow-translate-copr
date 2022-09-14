@@ -1,6 +1,6 @@
 Name:       crow-translate
 Version:    2.10.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    A simple and lightweight translator
 License:    GPL-3.0-only
 URL:        https://crow-translate.github.io/
@@ -20,6 +20,7 @@ BuildRequires: qt5-qtmultimedia-devel
 BuildRequires: qt5-qtx11extras-devel
 BuildRequires: kf5-kwayland-devel
 BuildRequires: tesseract-devel
+BuildRequires: leptonica-devel
 
 Recommends: gstreamer-plugins-good
 
@@ -49,6 +50,8 @@ text using Google, Yandex and Bing written with Qt5.
 %{_datadir}/metainfo/io.crow_translate.CrowTranslate.metainfo.xml
 
 %changelog
+* Wed Sep 14 2022 Carlis <t.me/pacpacpacpac> 2.10.0-2
+- Add leptonica-devel to BuildRequires
 * Wed Sep 14 2022 Carlis <t.me/pacpacpacpac> 2.10.0-1
 - 2.10.0
 * Fri Aug 12 2022 Carlis <t.me/pacpacpacpac> 2.9.12-1
