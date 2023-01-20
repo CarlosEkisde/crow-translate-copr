@@ -1,10 +1,10 @@
 Name:       crow-translate
-Version:    2.10.0
+Version:    2.10.2
 Release:    2%{?dist}
 Summary:    A simple and lightweight translator
 License:    GPL-3.0-only
 URL:        https://crow-translate.github.io/
-Source:     https://github.com/crow-translate/crow-translate/releases/download/2.10.0/crow-translate-%{version}-source.tar.gz
+Source:     https://github.com/crow-translate/crow-translate/releases/download/2.10.2/crow-translate-%{version}-source.tar.gz
 
 Patch0:     https://raw.githubusercontent.com/CarlosEkisde/crow-translate-copr/main/crow-translate-make_static_libs.patch
 
@@ -50,6 +50,8 @@ text using Google, Yandex and Bing written with Qt5.
 %{_datadir}/metainfo/io.crow_translate.CrowTranslate.metainfo.xml
 
 %changelog
+* Thu Jan 20 2023 Carlos <t.me/pacpacpacpac> 2.10.2-1
+- 2.10.2
 * Wed Sep 14 2022 Carlis <t.me/pacpacpacpac> 2.10.0-2
 - Add leptonica-devel to BuildRequires
 * Wed Sep 14 2022 Carlis <t.me/pacpacpacpac> 2.10.0-1
