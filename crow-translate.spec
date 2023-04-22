@@ -51,6 +51,7 @@ text using Google, Yandex and Bing written with Qt5.
 
 %changelog
 * Sat Apr 22 2023 Carlos <t.me/pacpacpacpac> 2.10.4-1
+- 2.10.4
 * Fri Feb 10 2023 Carlos <t.me/pacpacpacpac> 2.10.3-1
 - 2.10.3
 * Thu Jan 20 2023 Carlos <t.me/pacpacpacpac> 2.10.2-1
