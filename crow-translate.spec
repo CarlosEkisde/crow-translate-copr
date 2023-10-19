@@ -45,7 +45,6 @@ text using Google, Yandex and Bing written with Qt5.
 %doc README.md
 %{_bindir}/crow
 %{_datadir}/icons/hicolor/*
-%{_datadir}/Crow*Translate/*/translations/*
 %{_datadir}/applications/io.crow_translate.CrowTranslate.desktop
 %{_datadir}/metainfo/io.crow_translate.CrowTranslate.metainfo.xml
 
