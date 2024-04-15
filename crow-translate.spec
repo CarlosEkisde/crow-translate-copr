@@ -1,6 +1,6 @@
 Name:       crow-translate
 Version:    2.11.1
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    A simple and lightweight translator
 License:    GPL-3.0-only
 URL:        https://crow-translate.github.io/
